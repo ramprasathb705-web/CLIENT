@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="AudioMetrics dashboard featuring real-time speech telemetry and visual sound waves">
+  <defs>
+    <linearGradient id="p2Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#27272a"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#p2Grad)" rx="12"/>
+  <rect x="20" y="20" width="600" height="320" rx="8" fill="#18181b" stroke="#3f3f46" stroke-width="2"/>
+  
+  <!-- Waveform graphics -->
+  <g transform="translate(40, 60)">
+    <text x="0" y="20" fill="#f4f4f5" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">Real-time ARIA Live Region Audio Telemetry</text>
+    <text x="0" y="38" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="11">Visualizing screen reader speech synthesizer buffer &amp; speech rate</text>
+    
+    <!-- Sound wave bars -->
+    <rect x="0" y="60" width="12" height="60" rx="4" fill="#38bdf8"/>
+    <rect x="20" y="75" width="12" height="45" rx="4" fill="#60a5fa"/>
+    <rect x="40" y="50" width="12" height="70" rx="4" fill="#38bdf8"/>
+    <rect x="60" y="30" width="12" height="90" rx="4" fill="#818cf8"/>
+    <rect x="80" y="20" width="12" height="100" rx="4" fill="#c084fc"/>
+    <rect x="100" y="45" width="12" height="75" rx="4" fill="#818cf8"/>
+    <rect x="120" y="65" width="12" height="55" rx="4" fill="#38bdf8"/>
+    <rect x="140" y="35" width="12" height="85" rx="4" fill="#60a5fa"/>
+    <rect x="160" y="55" width="12" height="65" rx="4" fill="#38bdf8"/>
+    <rect x="180" y="70" width="12" height="50" rx="4" fill="#60a5fa"/>
+    <rect x="200" y="40" width="12" height="80" rx="4" fill="#818cf8"/>
+    <rect x="220" y="15" width="12" height="105" rx="4" fill="#c084fc"/>
+    <rect x="240" y="50" width="12" height="70" rx="4" fill="#818cf8"/>
+    <rect x="260" y="65" width="12" height="55" rx="4" fill="#38bdf8"/>
+
+    <!-- Metrics cards on right -->
+    <rect x="300" y="30" width="250" height="95" rx="8" fill="#27272a" stroke="#52525b" stroke-width="1.5"/>
+    <text x="320" y="60" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="11">Announcement Delay</text>
+    <text x="320" y="90" fill="#34d399" font-family="system-ui, sans-serif" font-size="24" font-weight="bold">12ms (Polite)</text>
+    <text x="320" y="110" fill="#71717a" font-family="system-ui, sans-serif" font-size="10">Zero collision detected</text>
+
+    <!-- Transcribed live text block -->
+    <rect x="0" y="150" width="550" height="75" rx="8" fill="#09090b" stroke="#27272a" stroke-width="1.5"/>
+    <text x="20" y="175" fill="#38bdf8" font-family="monospace" font-size="11">NVDA / JAWS / VoiceOver Voice Synthesizer Output:</text>
+    <text x="20" y="200" fill="#fafafa" font-family="monospace" font-size="13">"Navigation landmark, 4 items. Current page: Projects, link."</text>
+  </g>
+</svg>

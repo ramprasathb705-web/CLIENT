@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="ContrastIQ WCAG 2.2 color contrast analyzer and simulator">
+  <defs>
+    <linearGradient id="p3Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#042f2e"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#p3Grad)" rx="12"/>
+  <rect x="20" y="20" width="600" height="320" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
+  
+  <text x="50" y="65" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">ContrastIQ - Real-time WCAG 2.2 Spectrum Checker</text>
+  
+  <!-- Left color card -->
+  <rect x="50" y="90" width="250" height="130" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <rect x="70" y="110" width="40" height="40" rx="6" fill="#38bdf8"/>
+  <text x="120" y="125" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">Foreground: #38BDF8</text>
+  <text x="120" y="142" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Sky Blue (Accent 400)</text>
+  
+  <rect x="70" y="165" width="40" height="40" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="120" y="180" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">Background: #0F172A</text>
+  <text x="120" y="197" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Deep Slate (Neutral 900)</text>
+
+  <!-- Right score card -->
+  <rect x="330" y="90" width="250" height="130" rx="8" fill="#064e3b" stroke="#10b981" stroke-width="2"/>
+  <text x="350" y="125" fill="#a7f3d0" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Contrast Ratio</text>
+  <text x="350" y="165" fill="#ffffff" font-family="system-ui, sans-serif" font-size="34" font-weight="800">11.4 : 1</text>
+  <rect x="350" y="180" width="75" height="24" rx="4" fill="#10b981"/>
+  <text x="360" y="196" fill="#064e3b" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">PASS AAA</text>
+  <rect x="435" y="180" width="130" height="24" rx="4" fill="#047857"/>
+  <text x="445" y="196" fill="#ffffff" font-family="system-ui, sans-serif" font-size="10">Normal &amp; Large Text</text>
+
+  <!-- Bottom simulation test row -->
+  <g transform="translate(50, 245)">
+    <rect x="0" y="0" width="530" height="65" rx="8" fill="#1e293b"/>
+    <text x="20" y="28" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Color Blindness Simulation:</text>
+    <rect x="180" y="12" width="105" height="28" rx="4" fill="#334155"/>
+    <text x="190" y="30" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="10">Protanopia: 9.8:1</text>
+    <rect x="295" y="12" width="115" height="28" rx="4" fill="#334155"/>
+    <text x="305" y="30" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="10">Deuteranopia: 10.2:1</text>
+    <rect x="420" y="12" width="100" height="28" rx="4" fill="#334155"/>
+    <text x="430" y="30" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="10">Tritanopia: 11.0:1</text>
+  </g>
+</svg>

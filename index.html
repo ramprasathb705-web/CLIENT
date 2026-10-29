@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Character Encoding & Responsive Viewport -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Primary SEO Metadata -->
+  <title>Alex Morgan | Frontend Engineer &amp; Web Accessibility Architect</title>
+  <meta name="title" content="Alex Morgan | Frontend Engineer &amp; Web Accessibility Architect">
+  <meta name="description" content="Portfolio of Alex Morgan, senior frontend engineer specializing in semantic HTML5, WCAG 2.2 AA/AAA accessibility compliance, and high-performance web applications.">
+  <meta name="keywords" content="Frontend Engineer, Web Accessibility, WCAG 2.2, Semantic HTML5, ARIA, Lighthouse 100, Inclusive Design, UX Architecture">
+  <meta name="author" content="Alex Morgan">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://alexmorgan.dev/">
+
+  <!-- Theme Color & Mobile Manifest Support -->
+  <meta name="theme-color" content="#0b0f19" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f8fafc" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Open Graph Protocol (Facebook, LinkedIn, Discord) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://alexmorgan.dev/">
+  <meta property="og:site_name" content="Alex Morgan Portfolio">
+  <meta property="og:title" content="Alex Morgan | Frontend Engineer &amp; Web Accessibility Architect">
+  <meta property="og:description" content="High-performance, barrier-free web engineering adhering strictly to semantic HTML5 standards and WCAG accessibility guidelines.">
+  <meta property="og:image" content="https://alexmorgan.dev/assets/images/og-image.svg">
+  <meta property="og:image:alt" content="Alex Morgan - Frontend Engineer and Web Accessibility Specialist portfolio overview banner">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card Metadata -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://alexmorgan.dev/">
+  <meta name="twitter:title" content="Alex Morgan | Frontend Engineer &amp; Web Accessibility Architect">
+  <meta name="twitter:description" content="Explore semantic HTML5 architecture, zero-barrier UI engineering, and WCAG 2.2 compliant web apps.">
+  <meta name="twitter:image" content="https://alexmorgan.dev/assets/images/og-image.svg">
+  <meta name="twitter:creator" content="@alexmorgan_a11y">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Schema.org JSON-LD Structured Data for Enhanced SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://alexmorgan.dev/#website",
+        "url": "https://alexmorgan.dev/",
+        "name": "Alex Morgan Portfolio",
+        "description": "Portfolio of Alex Morgan, Frontend Engineer and Web Accessibility Architect",
+        "publisher": {
+          "@id": "https://alexmorgan.dev/#person"
+        },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://alexmorgan.dev/#person",
+        "name": "Alex Morgan",
+        "jobTitle": "Lead Accessibility Engineer & Frontend Architect",
+        "url": "https://alexmorgan.dev/",
+        "image": "https://alexmorgan.dev/assets/images/avatar.svg",
+        "knowsAbout": [
+          "Semantic HTML5",
+          "Web Accessibility (WCAG 2.2)",
+          "WAI-ARIA",
+          "Responsive Web Design",
+          "Frontend Performance Optimization"
+        ],
+        "sameAs": [
+          "https://github.com/alexmorgan",
+          "https://linkedin.com/in/alexmorgan",
+          "https://twitter.com/alexmorgan_a11y"
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Accessible Skip Link for Keyboard & Screen Reader Users -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Semantic Site Header Landmark -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-link" aria-label="Alex Morgan - Home">
+        <img src="assets/images/favicon.svg" alt="" class="brand-logo" width="36" height="36" aria-hidden="true">
+        <span>Alex Morgan</span>
+      </a>
+
+      <!-- Primary Navigation Landmark -->
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li>
+            <a href="index.html" class="nav-link" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li>
+            <a href="projects.html" class="nav-link">Projects</a>
+          </li>
+          <li>
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+          <li>
+            <a href="accessibility.html" class="nav-link">Accessibility</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Header Utilities (Theme Toggle & Mobile Menu) -->
+      <div class="nav-group">
+        <button id="theme-toggle" class="theme-toggle-btn" type="button" aria-pressed="false" aria-label="Switch to light theme">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <span class="sr-only">Switch to light theme</span>
+        </button>
+
+        <button class="mobile-menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Semantic Main Content Landmark -->
+  <main id="main-content">
+
+    <!-- Hero Section -->
+    <section class="page-section hero-section" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow">Front-End Engineer &amp; A11y Specialist</span>
+          <h1 id="hero-heading">Building Inclusive, High-Performance Web Experiences</h1>
+          <p class="hero-description">
+            I engineer web systems grounded in <mark>pure semantic HTML5</mark>, robust keyboard accessibility, and <strong>WCAG 2.2 Level AAA</strong> adherence. By treating digital accessibility as a core architectural foundation rather than an afterthought, I build digital products everyone can use seamlessly.
+          </p>
+
+          <div class="btn-group">
+            <a href="projects.html" class="btn btn-primary">
+              <span>Explore Case Studies</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
+          </div>
+        </div>
+
+        <div class="hero-avatar-wrapper">
+          <figure>
+            <img src="assets/images/avatar.svg" alt="Portrait illustration of Alex Morgan with glasses and universal accessibility emblem" class="hero-avatar" width="340" height="340" loading="eager">
+            <figcaption class="sr-only">Portrait of Alex Morgan, accessible web engineer</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Performance & Conformance Metrics Section -->
+    <section class="page-section" aria-labelledby="metrics-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Measurable Standards</span>
+          <h2 id="metrics-heading">Engineered for Verifiable Quality</h2>
+          <p class="section-subtitle">Every interface is audited against strict automated and assistive technology standards.</p>
+        </div>
+
+        <div class="metrics-strip">
+          <div class="metric-card">
+            <div class="metric-value">100 / 100</div>
+            <div class="metric-label">Lighthouse Accessibility</div>
+            <p class="metric-desc">Perfect automated audit score covering color contrast, ARIA landmarks, form labeling, and tap targets.</p>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-value">100 / 100</div>
+            <div class="metric-label">Lighthouse SEO</div>
+            <p class="metric-desc">Full indexability with semantic hierarchy, Schema.org JSON-LD, crawlable metadata, and sitemaps.</p>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-value">WCAG 2.2</div>
+            <div class="metric-label">AA &amp; AAA Conformance</div>
+            <p class="metric-desc">Zero keyboard traps, enhanced focus indicators (3px), and complete screen reader compatibility.</p>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-value">0 Errors</div>
+            <div class="metric-label">W3C Validation</div>
+            <p class="metric-desc">Strict compliance with official W3C Nu HTML and CSS specifications.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Section with Semantic Articles -->
+    <section class="page-section" aria-labelledby="featured-projects-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Selected Work</span>
+          <h2 id="featured-projects-heading">Featured Accessibility Projects</h2>
+          <p class="section-subtitle">Explore real-world applications engineered with semantic markup and assistive device support.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 Article -->
+          <article class="project-card" aria-labelledby="p1-title">
+            <div class="project-media">
+              <img src="assets/images/project-1.svg" alt="Preview of Aura Design System components showing high-contrast buttons and focus indicators" width="640" height="360" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 id="p1-title" class="project-title">
+                <a href="projects.html#aura-design-system">Aura Inclusive Design System</a>
+              </h3>
+              <p class="project-desc">
+                An open-source UI component library adhering strictly to WAI-ARIA Authoring Practices (APG) 1.2, featuring fully keyboard-operable modals, dropdowns, and forms.
+              </p>
+              <ul class="tags-list" aria-label="Aura Design System technologies used">
+                <li class="tag-badge">Semantic HTML5</li>
+                <li class="tag-badge">ARIA 1.2</li>
+                <li class="tag-badge">WCAG AAA</li>
+                <li class="tag-badge">Web Components</li>
+              </ul>
+              <div class="project-actions">
+                <a href="projects.html#aura-design-system" class="btn btn-secondary" aria-label="Read full case study about Aura Inclusive Design System">View Case Study</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 Article -->
+          <article class="project-card" aria-labelledby="p2-title">
+            <div class="project-media">
+              <img src="assets/images/project-2.svg" alt="Telemetry dashboard showing audio wave forms and screen reader speech synthesizer live feedback" width="640" height="360" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 id="p2-title" class="project-title">
+                <a href="projects.html#audiometrics-dashboard">AudioMetrics Live Telemetry</a>
+              </h3>
+              <p class="project-desc">
+                An audio-visual dashboard that analyzes ARIA live region announcement frequency, speech synthesizer latency, and prevents screen reader chatter collisions.
+              </p>
+              <ul class="tags-list" aria-label="AudioMetrics technologies used">
+                <li class="tag-badge">Vanilla JavaScript</li>
+                <li class="tag-badge">ARIA Live Regions</li>
+                <li class="tag-badge">Web Audio API</li>
+                <li class="tag-badge">Lighthouse 100</li>
+              </ul>
+              <div class="project-actions">
+                <a href="projects.html#audiometrics-dashboard" class="btn btn-secondary" aria-label="Read full case study about AudioMetrics Live Telemetry">View Case Study</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div style="margin-top: var(--spacing-2xl); text-align: center;">
+          <a href="projects.html" class="btn btn-primary">
+            <span>View All Projects in Archive</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Semantic Aside Callout Landmark -->
+    <div class="container">
+      <aside class="aside-callout" aria-labelledby="aside-heading">
+        <h3 id="aside-heading">The First Rule of ARIA</h3>
+        <p>
+          <em>"If you can use a native HTML element or attribute with the semantics and behavior you require already built in, then do so."</em> In every line of code across this site, native semantic tags like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;footer&gt;</code> are prioritized over generic <code>&lt;div&gt;</code> tags burdened with superfluous ARIA roles.
+        </p>
+      </aside>
+    </div>
+
+    <!-- Call to Action Section -->
+    <section class="page-section" aria-labelledby="cta-heading">
+      <div class="container" style="text-align: center; max-width: 48rem;">
+        <span class="eyebrow">Collaboration &amp; Audits</span>
+        <h2 id="cta-heading">Ready to Make the Web Accessible for Everyone?</h2>
+        <p>
+          Whether you need a full WCAG 2.2 accessibility audit, a custom design system built with semantic HTML5, or engineering leadership on high-impact projects, let's connect.
+        </p>
+        <div class="btn-group" style="justify-content: center;">
+          <a href="contact.html" class="btn btn-primary">Start a Conversation</a>
+          <a href="accessibility.html" class="btn btn-secondary">Read Accessibility Statement</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Semantic Footer Landmark -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-link" aria-label="Alex Morgan - Home">
+            <img src="assets/images/favicon.svg" alt="" class="brand-logo" width="32" height="32" aria-hidden="true">
+            <span>Alex Morgan</span>
+          </a>
+          <p>
+            Senior Frontend Engineer advocating for digital equity, universal design, and pristine semantic code standards.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="footer-heading">Navigation</h2>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About &amp; Experience</a></li>
+            <li><a href="projects.html">Project Showcase</a></li>
+            <li><a href="contact.html">Contact Form</a></li>
+            <li><a href="accessibility.html">Accessibility Statement</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="footer-heading">Standards</h2>
+          <ul class="footer-links">
+            <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank" rel="noopener noreferrer">W3C WCAG 2.2 (External)</a></li>
+            <li><a href="https://www.w3.org/WAI/ARIA/apg/" target="_blank" rel="noopener noreferrer">WAI-ARIA APG (External)</a></li>
+            <li><a href="https://validator.w3.org/nu/" target="_blank" rel="noopener noreferrer">W3C Nu Validator (External)</a></li>
+            <li><a href="sitemap.xml">XML Sitemap</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="footer-heading">Direct Contact</h2>
+          <address style="font-style: normal; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6;">
+            Alex Morgan<br>
+            San Francisco Bay Area, CA<br>
+            Email: <a href="mailto:alex@alexmorgan.dev">alex@alexmorgan.dev</a><br>
+            Open for remote &amp; hybrid roles
+          </address>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          <p>&copy; <time id="current-year" datetime="2026">2026</time> Alex Morgan. Built strictly with semantic HTML5 &amp; WCAG standards.</p>
+        </div>
+
+        <ul class="footer-social-links" aria-label="Social media profiles">
+          <li>
+            <a href="https://github.com" class="social-link" aria-label="Alex Morgan on GitHub (opens in a new tab)" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com" class="social-link" aria-label="Alex Morgan on LinkedIn (opens in a new tab)" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com" class="social-link" aria-label="Alex Morgan on X / Twitter (opens in a new tab)" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Stylized professional portrait of Alex Morgan">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="190" fill="url(#bgGrad)" stroke="#38bdf8" stroke-width="4"/>
+  <!-- Decorative subtle tech ring -->
+  <circle cx="200" cy="200" r="170" fill="none" stroke="#334155" stroke-dasharray="6,6" stroke-width="2"/>
+  
+  <!-- Body/Torso -->
+  <path d="M110 350 C110 270, 140 250, 200 250 C260 250, 290 270, 290 350 Z" fill="url(#accentGrad)" />
+  <!-- Shirt collar -->
+  <path d="M175 250 L200 290 L225 250 Z" fill="#0f172a" opacity="0.4" />
+  
+  <!-- Head & Neck -->
+  <rect x="185" y="215" width="30" height="40" rx="8" fill="#fcd34d" />
+  <circle cx="200" cy="175" r="58" fill="#fcd34d" />
+  
+  <!-- Hair -->
+  <path d="M142 165 C142 110, 170 100, 200 100 C235 100, 258 115, 258 165 C250 140, 230 130, 200 130 C165 130, 150 145, 142 165 Z" fill="#334155" />
+  
+  <!-- Modern glasses (Accessibility motif) -->
+  <rect x="165" y="162" width="28" height="20" rx="6" fill="none" stroke="#0f172a" stroke-width="3" />
+  <rect x="207" y="162" width="28" height="20" rx="6" fill="none" stroke="#0f172a" stroke-width="3" />
+  <line x1="193" y1="172" x2="207" y2="172" stroke="#0f172a" stroke-width="3" />
+  <!-- Eyes behind glasses -->
+  <circle cx="179" cy="172" r="3" fill="#0f172a" />
+  <circle cx="221" cy="172" r="3" fill="#0f172a" />
+  
+  <!-- Friendly smile -->
+  <path d="M188 202 Q200 214 212 202" fill="none" stroke="#0f172a" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Accessibility Badge in corner -->
+  <g transform="translate(295, 295)">
+    <circle cx="20" cy="20" r="28" fill="#2563eb" stroke="#ffffff" stroke-width="3"/>
+    <!-- Universal Access Icon -->
+    <circle cx="20" cy="11" r="3.5" fill="#ffffff"/>
+    <path d="M11 17 H29 M20 17 V29 M15 35 L20 28 L25 35" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>

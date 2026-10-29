@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Alex Morgan - Frontend Engineer &amp; Web Accessibility Specialist">
+  <defs>
+    <linearGradient id="ogGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#ogGrad)" />
+  <!-- Grid lines -->
+  <path d="M0 100 H1200 M0 200 H1200 M0 300 H1200 M0 400 H1200 M0 500 H1200" stroke="#1e293b" stroke-width="1" opacity="0.6"/>
+  <path d="M200 0 V630 M400 0 V630 M600 0 V630 M800 0 V630 M1000 0 V630" stroke="#1e293b" stroke-width="1" opacity="0.6"/>
+
+  <!-- Badge -->
+  <rect x="100" y="100" width="220" height="42" rx="21" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <circle cx="124" cy="121" r="6" fill="#38bdf8"/>
+  <text x="140" y="127" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="16" font-weight="700" letter-spacing="1">WCAG 2.2 AA / AAA</text>
+
+  <!-- Main Headline -->
+  <text x="100" y="220" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="64" font-weight="800">Alex Morgan</text>
+  <text x="100" y="285" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="36" font-weight="600">Frontend Engineer &amp; Accessibility Architect</text>
+  <text x="100" y="345" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="22" max-width="800">
+    Crafting high-performance, barrier-free web experiences compliant with semantic HTML5 standards.
+  </text>
+
+  <!-- Metric Badges -->
+  <g transform="translate(100, 430)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="210" height="80" rx="12" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+    <text x="24" y="35" fill="#10b981" font-family="system-ui, sans-serif" font-size="28" font-weight="bold">100 / 100</text>
+    <text x="24" y="60" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="14">Lighthouse A11y</text>
+
+    <!-- Pill 2 -->
+    <rect x="230" y="0" width="210" height="80" rx="12" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+    <text x="254" y="35" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="28" font-weight="bold">100 / 100</text>
+    <text x="254" y="60" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="14">Lighthouse SEO</text>
+
+    <!-- Pill 3 -->
+    <rect x="460" y="0" width="230" height="80" rx="12" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+    <text x="484" y="35" fill="#c084fc" font-family="system-ui, sans-serif" font-size="28" font-weight="bold">Zero Errors</text>
+    <text x="484" y="60" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="14">W3C Nu Validator</text>
+  </g>
+</svg>
